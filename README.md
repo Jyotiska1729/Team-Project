@@ -15,4 +15,4 @@ Repository for Projects
 
 6. Software: VS Code
 
-7. Statistics / OR Techniques: 
+7. Statistics / OR Techniques:
