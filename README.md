@@ -7,12 +7,10 @@ Repository for Projects
 
 2. Domain: Banking, Finance
 
-3. Problem Statement: 0
+3. Problem Statement: Analysis of Cryptocurrency Prices
 
-4. Reference Published Work: 0
+4. Data: https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory
 
-5. Data: 0
+5. Software: R
 
-6. Software: VS Code
-
-7. Statistics / OR Techniques: 
+5. Statistics / OR Techniques: 
