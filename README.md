@@ -9,7 +9,7 @@ Repository for Projects
 
 3. Problem Statement: Analysis of Cryptocurrency Prices
 
-4. Data: https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory
+4. Data: https://www.kaggle.com/philmohun/cryptocurrency-financial-data
 
 5. Software: R
 
