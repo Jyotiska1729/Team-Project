@@ -1,7 +1,5 @@
 data = read.csv(file.choose())
-
-# Checking the types of data available:
-str(data)
+str(data)  # Checking the data types
 
 # Changing the data types:
 data$Currency = as.character(data$Currency)
@@ -12,7 +10,9 @@ data$Low = as.numeric(data$Low)
 data$Close = as.numeric(data$Close)
 data$Volume = as.numeric(gsub(",","",data$Volume))
 data$Market.Cap = as.numeric(gsub(",","",data$Market.Cap))
+summary(data)
 
-# Verification:
-str(data)
-
+# Missing Values:
+apply(is.na(data), 2, any)
+library(mice)  # Importing "mice" package
+md.pattern(data)  # Display missing-data patterns
